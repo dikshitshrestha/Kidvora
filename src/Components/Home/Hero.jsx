@@ -38,7 +38,7 @@ export default function Hero() {
           Sign Up Now
         </button>
       </div>
-      <div className="py-20 px-16 h-full flex gap-6">
+      <div className="py-14 px-16 h-full flex gap-6">
         {[kid1, kid2, kid3, kid4].map((item, index) => (
           <div
             key={index}

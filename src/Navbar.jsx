@@ -5,7 +5,7 @@ import flag from "../src/assets/flag.png";
 
 export default function Navbar() {
   const pages = [
-    { label: "Homepage", path: "/" },
+    { label: "Home", path: "/" },
     { label: "About Us", path: "/about" },
     { label: "Courses", path: "/courses" },
     { label: "Activities", path: "/activities" },
