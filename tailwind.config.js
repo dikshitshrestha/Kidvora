@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        ainslie: ["Ainslie Sans", "sans-serif"],
         poppins: ['Poppins', 'sans-serif'], // Add Poppins font family
       },
     },
