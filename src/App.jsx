@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import About from "./Components/AboutUs/About";
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
