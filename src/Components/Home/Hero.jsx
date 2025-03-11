@@ -15,10 +15,10 @@ export default function Hero() {
       </div>
       <div className="py-10">
         <h1 className="text-center text-6xl font-semibold flex flex-col gap-2">
-          <h1>Welcome to Kidvora A</h1>
-          <h1>
+          <p>Welcome to Kidvora A</p>
+          <p>
             <span className="text-purple-500">Fun Way</span> to Learn!
-          </h1>
+          </p>
         </h1>
         <h1 className="pt-7 text-center px-[420px] text-zinc-700">
           Discover a wide range of interactive and engaging courses specially
