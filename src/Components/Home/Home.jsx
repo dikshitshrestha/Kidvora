@@ -4,6 +4,7 @@ import Landing from "./Landing";
 import ChooseUs from "./ChooseUs";
 import HomeCourses from "./HomeCourses";
 import UpcomingEvent from "./UpcomingEvent";
+import Subscription from "./Subscription";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ChooseUs />
       <HomeCourses />
       <UpcomingEvent />
+      <Subscription />
     </div>
   );
 }

@@ -51,13 +51,18 @@ export default function HomeCourses() {
       </div>
       <div className="flex pt-10 gap-8">
         {courses.map((item, index) => (
-          <div className="w-full border-[1px] border-zinc-300 rounded-2xl p-4">
+          <div
+            className="w-full border-[1px] border-zinc-300 rounded-2xl p-4"
+            key={index}
+          >
             <div className="h-56 relative">
-              <img
-                src={item.image}
-                alt="courses"
-                className="h-full w-full object-cover rounded-lg"
-              />
+              <div className="h-full overflow-hidden rounded-lg">
+                <img
+                  src={item.image}
+                  alt="courses"
+                  className="h-full w-full object-cover hover:scale-125 duration-700"
+                />
+              </div>
               <div className="absolute -bottom-5 right-4 bg-indigo-400 leading-tight text-center w-12 h-12 flex items-center justify-center font-sans font-semibold text-white rounded-full">
                 <h1>
                   30 <br />

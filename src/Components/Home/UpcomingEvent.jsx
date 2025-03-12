@@ -50,7 +50,7 @@ export default function UpcomingEvent() {
                 "Foster Creativity and Innovation",
                 "Introduction to STEM",
               ].map((item, index) => (
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4" key={index}>
                   <div className="text-indigo-400">
                     <FaCheck />
                   </div>
