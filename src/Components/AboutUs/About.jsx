@@ -1,9 +1,12 @@
 import React from "react";
+import AboutHeader from "./AboutHeader";
+import Landing from "../Home/Landing";
 
 export default function About() {
   return (
     <div>
-      <h1>this is about page</h1>
+      <AboutHeader />
+      <Landing />
     </div>
   );
 }
