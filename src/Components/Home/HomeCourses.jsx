@@ -49,7 +49,7 @@ export default function HomeCourses() {
           </button>
         </div>
       </div>
-      <div className="flex py-10 gap-8">
+      <div className="flex pt-10 gap-8">
         {courses.map((item, index) => (
           <div className="w-full border-[1px] border-zinc-300 rounded-2xl p-4">
             <div className="h-56 relative">
