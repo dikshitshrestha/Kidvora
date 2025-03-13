@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBook } from "react-icons/fa";
 import { FaBookReader } from "react-icons/fa";
 import { PiStudentFill } from "react-icons/pi";
-import { FaSchool } from "react-icons/fa";
 import { IoSchoolSharp } from "react-icons/io5";
 
 export default function Mission() {

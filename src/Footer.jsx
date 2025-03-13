@@ -108,6 +108,7 @@ export default function Footer() {
             <a
               href="#"
               className="bg-white px-2 py-2 text-3xl rounded-lg hover:bg-zinc-300 ease-in-out duration-300"
+              key={index}
             >
               {icon}
             </a>
