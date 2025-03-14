@@ -66,7 +66,7 @@ export default function Values() {
             onMouseLeave={() => setIsHovered(null)}
             key={index}
             className={`p-6 rounded-2xl flex flex-col gap-14 bg-white ${
-              isHovered === index ? "bg-red-50 ease-in-out duration-300" : ""
+              isHovered === index ? "bg-red-200 ease-in-out duration-300" : ""
             }`}
           >
             <div className=" bg-red-300 text-white h-12 w-12 flex items-center justify-center text-2xl rounded-full">

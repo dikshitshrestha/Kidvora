@@ -1,9 +1,12 @@
 import React from "react";
+import AcitivitesHero from "./ActivitiesHero";
+import Interactive from "./Interactive";
 
 export default function Activities() {
   return (
     <div>
-      <h1>this is activity page</h1>
+      <AcitivitesHero />
+      <Interactive />
     </div>
   );
 }
