@@ -40,7 +40,7 @@ export default function Schedule() {
       <div className="flex pt-10 gap-5">
         {schedule.map((item, index) => (
           <div
-            className="w-full border-[1px] border-zinc-300 rounded-2xl p-4 bg-red-300 hover:bg-indigo-300 duration-300 ease-in-out"
+            className="w-full rounded-2xl p-4 bg-red-300 shadow-lg transition-transform hover:scale-x-105 hover:scale-y-105 hover:scale-b hover:bg-indigo-300 duration-500 ease-in-out"
             key={index}
           >
             <div className="flex flex-col gap-3 text-white">
