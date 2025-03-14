@@ -49,7 +49,10 @@ export default function Interactive() {
           <h1 className="text-4xl">Interactive Activities</h1>
           <div className=" w-full flex flex-col gap-5 pt-3">
             {activities.map((item, index) => (
-              <div className="bg-white py-4 px-3 rounded-lg shadow-lg flex gap-5 items-center">
+              <div
+                className="bg-white py-4 px-3 rounded-lg shadow-lg flex gap-5 items-center"
+                key={index}
+              >
                 <div className="h-24 w-24 rounded-md overflow-hidden">
                   <img
                     src={item.image}
