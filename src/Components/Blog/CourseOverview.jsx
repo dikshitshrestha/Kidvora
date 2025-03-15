@@ -4,7 +4,7 @@ import kid1 from "../../assets/course2.jpg";
 import kid2 from "../../assets/gallery3.jpg";
 import kid3 from "../../assets/journey3.jpg";
 import kid4 from "../../assets/kid7.jpg";
-import kid5 from "../../assets/gallery5.jpg";
+import kid5 from "../../assets/Gallery5.jpg";
 import learn1 from "../../assets/learn1.jpg";
 import learn2 from "../../assets/learn2.jpg";
 import learn3 from "../../assets/learn3.jpg";

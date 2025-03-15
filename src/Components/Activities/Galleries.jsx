@@ -1,9 +1,9 @@
 import React from "react";
-import kid1 from "../../assets/gallery1.jpg";
-import kid2 from "../../assets/gallery2.jpg";
-import kid3 from "../../assets/gallery3.jpg";
-import kid4 from "../../assets/gallery4.jpg";
-import kid5 from "../../assets/gallery5.jpg";
+import kid1 from "../../assets/Gallery1.jpg";
+import kid2 from "../../assets/Gallery2.jpg";
+import kid3 from "../../assets/Gallery3.jpg";
+import kid4 from "../../assets/Gallery4.jpg";
+import kid5 from "../../assets/Gallery5.jpg";
 
 export default function Galleries() {
   return (

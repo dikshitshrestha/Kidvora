@@ -3,8 +3,6 @@ import { IoMdArrowForward } from "react-icons/io";
 import course1 from "../../assets/course1.jpg";
 import course2 from "../../assets/course2.jpg";
 import course3 from "../../assets/course3.jpg";
-import { SlCalender } from "react-icons/sl";
-import { IoDocumentsSharp } from "react-icons/io5";
 
 export default function DiyLearning() {
   const courses = [
