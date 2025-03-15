@@ -10,7 +10,7 @@ export default function Interactive() {
   const activities = [
     {
       heading: "Virtual Science Experiments",
-      p1: "Coding challenges",
+      p1: "Chemistry challenges",
       p2: "Building projects",
       image: kid1,
     },

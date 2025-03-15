@@ -65,8 +65,8 @@ export default function HomeCourses() {
               </div>
               <div className="absolute -bottom-5 right-4 bg-indigo-400 leading-tight text-center w-12 h-12 flex items-center justify-center font-sans font-semibold text-white rounded-full">
                 <h1>
-                  30 <br />
-                  Jan
+                  2025 <br />
+                  Mar
                 </h1>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function HomeCourses() {
               <div className="flex font-sans items-center justify-center text-zinc-500 gap-4">
                 <h1 className="font-semibold flex items-center gap-1">
                   <SlCalender />
-                  March 25, 2025
+                  March, 2025
                 </h1>
                 <a
                   href="/courses"

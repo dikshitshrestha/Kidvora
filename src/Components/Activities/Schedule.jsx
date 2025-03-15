@@ -17,9 +17,9 @@ export default function Schedule() {
       time: "11:30 AM – 12:30 PM",
     },
     {
-      heading1: "Geography",
+      heading1: "Robotics",
       date: "06",
-      heading2: "Geography Adventure Game",
+      heading2: "Robot bulding challenges",
       time: "1:00 PM – 2:00 PM",
     },
   ];
@@ -48,7 +48,7 @@ export default function Schedule() {
                 {item.heading1}
               </h1>
               <h1 className="text-7xl">{item.date}</h1>
-              <h1 className="text-[18px]">April 2025</h1>
+              <h1 className="text-[18px]">March 2025</h1>
             </div>
 
             <div className="flex flex-col gap-5 text-white mt-28">
