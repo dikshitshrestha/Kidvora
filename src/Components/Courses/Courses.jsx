@@ -1,9 +1,10 @@
 import React from "react";
+import CoursesHero from "./CoursesHero";
 
 export default function Courses() {
   return (
     <div>
-      <h1>this is course page</h1>
+      <CoursesHero />
     </div>
   );
 }
