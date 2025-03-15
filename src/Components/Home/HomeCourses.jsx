@@ -44,9 +44,12 @@ export default function HomeCourses() {
             unique abilities, fostering confidence, growth, <br /> and a
             lifelong
           </p>
-          <button className="flex gap-1 items-center bg-indigo-500 py-3 px-5 text-white rounded-full hover:bg-indigo-700 ease-in-out duration-300 underline">
+          <a
+            href="/courses"
+            className="flex gap-1 items-center bg-indigo-500 py-3 px-5 text-white rounded-full hover:bg-indigo-700 ease-in-out duration-300 underline"
+          >
             Explore More <IoMdArrowForward />
-          </button>
+          </a>
         </div>
       </div>
       <div className="flex pt-10 gap-8">

@@ -31,9 +31,12 @@ export default function AcitivitesHero() {
         >
           Explore Courses
         </NavLink>
-        <button className="border-black border-[1px] px-11 py-3 rounded-full hover:bg-red-400 ease-in-out duration-500 text-black hover:text-white hover:border-red-400">
+        <NavLink
+          to="/login"
+          className="border-black border-[1px] px-11 py-3 rounded-full hover:bg-red-400 ease-in-out duration-500 text-black hover:text-white hover:border-red-400"
+        >
           Sign Up Now
-        </button>
+        </NavLink>
       </div>
       <div className="py-14 px-16 h-full flex justify-center gap-6">
         {[kid1, kid2, kid3].map((item, index) => (

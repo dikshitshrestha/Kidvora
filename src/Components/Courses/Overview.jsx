@@ -16,36 +16,42 @@ export default function Overview() {
       heading: "Little Explorers Workshop",
       paragraph:
         "A playful learning journey filled with discovery, creativity, and adventure!",
+      path: "/courses/workshop",
     },
     {
       image: course2,
       heading: "Future Innovators Club",
       paragraph:
         "Inspiring young minds through hands-on STEM, creativity, and problem-solving.",
+      path: "/courses/future",
     },
     {
       image: course3,
       heading: "Bright Minds Academy",
       paragraph:
         "Unlock your child’s potential with fun and engaging learning activities!",
+      path: "/courses/bright",
     },
     {
       image: course4,
       heading: "Genius Kids Bootcamp",
       paragraph:
         "A dynamic learning program designed to develop curiosity, confidence, and skills for the future!",
+      path: "/courses/bootcamp",
     },
     {
       image: course5,
       heading: "Smart Start Learning Hub",
       paragraph:
         "Unleash your child’s creativity with fun and engaging arts and crafts lessons, designed to spark.",
+      path: "/courses/smart",
     },
     {
       image: course6,
       heading: "Creative Arts & Crafts",
       paragraph:
         "Unleash your child’s creativity with fun and engaging arts and crafts lessons, designed to spark.",
+      path: "/courses/art",
     },
   ];
   return (
@@ -107,7 +113,7 @@ export default function Overview() {
             </div>
             <div className="flex justify-center">
               <a
-                href="#"
+                href={item.path}
                 className="underline py-3 px-6 rounded-full border-[1px] text-indigo-400 hover:bg-indigo-400 hover:text-white hover:no-underline duration-300 ease-in-out"
               >
                 See Detail

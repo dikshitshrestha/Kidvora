@@ -44,9 +44,12 @@ export default function CourseOverview() {
             Explore our featured articles filled with expert tips, engaging
             stories, and valuable insights
           </p>
-          <button className="flex items-center gap-1.5 text-[17px] bg-indigo-400 py-3 px-12 underline text-white hover:bg-indigo-600 duration-300 ease-in-out rounded-full">
+          <a
+            href="/courses"
+            className="flex items-center gap-1.5 text-[17px] bg-indigo-400 py-3 px-12 underline text-white hover:bg-indigo-600 duration-300 ease-in-out rounded-full"
+          >
             Explore More <GoArrowRight />
-          </button>
+          </a>
         </div>
         <div className="flex gap-2 py-8">
           {[kid1, kid2, kid3, kid4, kid5].map((image, index) => {

@@ -31,9 +31,12 @@ export default function BlogHero() {
           >
             Explore Courses
           </NavLink>
-          <button className="border-indigo-400 border-[1px] px-11 py-3 rounded-full hover:bg-indigo-400 ease-in-out duration-300 text-indigo-400 hover:text-white">
+          <NavLink
+            to="/login"
+            className="border-indigo-400 border-[1px] px-11 py-3 rounded-full hover:bg-indigo-400 ease-in-out duration-300 text-indigo-400 hover:text-white"
+          >
             Sign Up Now
-          </button>
+          </NavLink>
         </div>
       </div>
       <div className="h-[1150px] flex gap-6 w-1/2 px-10 overflow-hidden">

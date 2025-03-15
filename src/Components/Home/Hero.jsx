@@ -34,9 +34,12 @@ export default function Hero() {
         >
           Explore Courses
         </NavLink>
-        <button className="border-indigo-400 border-[1px] px-11 py-3 rounded-full hover:bg-indigo-400 ease-in-out duration-300 text-indigo-400 hover:text-white">
+        <NavLink
+          to="/login"
+          className="border-indigo-400 border-[1px] px-11 py-3 rounded-full hover:bg-indigo-400 ease-in-out duration-300 text-indigo-400 hover:text-white"
+        >
           Sign Up Now
-        </button>
+        </NavLink>
       </div>
       <div className="py-14 px-16 h-full flex gap-6">
         {[kid1, kid2, kid3, kid4].map((item, index) => (
