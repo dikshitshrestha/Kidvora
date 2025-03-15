@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 import kid1 from "../../assets/course2.jpg";
-import kid2 from "../../assets/gallery3.jpg";
+import kid2 from "../../assets/Gallery3.jpg";
 import kid3 from "../../assets/journey3.jpg";
 import kid4 from "../../assets/kid7.jpg";
 import kid5 from "../../assets/Gallery5.jpg";
