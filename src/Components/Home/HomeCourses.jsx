@@ -91,7 +91,7 @@ export default function HomeCourses() {
             </div>
             <div className="flex justify-center">
               <a
-                href="#"
+                href="/course"
                 className="underline py-3 px-6 rounded-full border-[1px] text-indigo-400 hover:bg-indigo-400 hover:text-white hover:no-underline duration-300 ease-in-out"
               >
                 See Detail
