@@ -11,7 +11,7 @@ export default function LoginHeader() {
       <div className="pt-8">
         <h1 className="text-center text-6xl font-semibold flex flex-col gap-2">
           <p>
-            Register to <span className="text-purple-500">Kidvora </span>
+            Join <span className="text-purple-500">Kidvora </span>
           </p>
           <p>And Make Studies Fun</p>
         </h1>
