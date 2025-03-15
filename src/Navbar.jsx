@@ -41,9 +41,16 @@ export default function Navbar() {
             <h1>NEP</h1>
           </div>
           <div>
-            <button className="border-[1px] hover:bg-purple-800 hover:text-white ease-in-out duration-300 border-zinc-200 px-11 rounded-full text-[18px] py-2">
+            <NavLink
+              to="/login"
+              className={({ isActive }) =>
+                `border-[1px] hover:bg-purple-800 hover:text-white ease-in-out duration-300 border-zinc-200 px-11 rounded-full text-[18px] py-3 ${
+                  isActive ? "bg-purple-800 text-white" : "bg-white text-black"
+                }`
+              }
+            >
               Register
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>
