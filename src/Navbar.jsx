@@ -12,13 +12,13 @@ export default function Navbar() {
     { label: "Blog", path: "/blog" },
   ];
   return (
-    <div className="w-full py-8 px-20 bg-indigo-100 font-poppins">
-      <div className="flex items-center justify-between rounded-lg bg-white px-6 py-4 shadow-md">
-        <div className="flex items-center gap-1.5 text-2xl font-semibold">
-          <img src={logo} alt="logo" className="h-10" />
+    <div className="w-full xl:py-8 py-6 xl:px-20 px-2 bg-indigo-100 font-poppins container mx-auto">
+      <div className="flex md:flex-row flex-col items-center md:justify-between gap-4 rounded-lg bg-white md:px-6 py-4 shadow-md">
+        <div className="flex items-center gap-1.5 xl:text-2xl font-semibold">
+          <img src={logo} alt="logo" className="xl:h-10 h-6" />
           <h1>Kidvora</h1>
         </div>
-        <div className="flex gap-10 text-[18px] font-normal">
+        <div className="flex xl:gap-10 gap-3 xl:text-[18px] text-sm font-normal">
           {pages.map((pages, index) => (
             <NavLink
               to={pages.path}
@@ -33,18 +33,18 @@ export default function Navbar() {
             </NavLink>
           ))}
         </div>
-        <div className="flex items-center gap-5">
+        <div className="flex items-center xl:gap-5 gap-3">
           <div className="flex items-center gap-0.5 text-[18px]">
-            <div className="h-6 w-6 rounded-full flex justify-center border-black overflow-hidden">
+            <div className="xl:h-6 h-4 w-4 xl:w-6 rounded-full flex justify-center border-black overflow-hidden">
               <img src={flag} alt="flag" className="h-full object-cover" />
             </div>
-            <h1>NEP</h1>
+            <h1 className="text-sm xl:text-[18px]">NEP</h1>
           </div>
           <div>
             <NavLink
               to="/login"
               className={({ isActive }) =>
-                `border-[1px] hover:bg-purple-800 hover:text-white ease-in-out duration-300 border-zinc-200 px-11 rounded-full text-[18px] py-3 ${
+                `border-[1px] hover:bg-purple-800 hover:text-white ease-in-out duration-300 border-zinc-200 xl:px-11 px-5 rounded-full text-sm xl:text-[18px] xl:py-3 py-2 ${
                   isActive ? "bg-purple-800 text-white" : "bg-white text-black"
                 }`
               }

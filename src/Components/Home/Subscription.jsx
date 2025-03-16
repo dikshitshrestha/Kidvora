@@ -3,18 +3,20 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 export default function Subscription() {
   return (
-    <div className="font-poppins  py-24 px-20">
+    <div className="font-poppins py-24 xl:px-20 container mx-auto">
       <div className="text-center">
         <h1 className="font-bold text-indigo-400">SUBSCRIPTION PLANS</h1>
-        <div className="py-5">
-          <h1 className="text-4xl">Affordable Plans for Every Family</h1>
+        <div className="xl:py-5 py-3">
+          <h1 className="xl:text-4xl text-2xl">
+            Affordable Plans for Every Family
+          </h1>
           <p className="py-2 text-zinc-700">
             Empowering young minds with a safe, interactive platform
           </p>
         </div>
       </div>
-      <div className="flex gap-5">
-        <div className="flex flex-col gap-4 bg-indigo-100 w-1/3 px-6 py-8 rounded-2xl shadow-xl">
+      <div className="flex gap-5 lg:flex-row flex-col px-2">
+        <div className="flex flex-col gap-4 bg-indigo-100 xl:w-1/3 px-6 py-8 rounded-2xl shadow-xl">
           {[
             "Access to basic courses in math, reading, and science",
             "Interactive lessons with fun visuals and quizzes",
@@ -43,12 +45,12 @@ export default function Subscription() {
             </p>
           </div>
           <div>
-            <button className="text-xl w-full py-3 rounded-full underline bg-indigo-400 text-white hover:bg-zinc-800 ease-in-out duration-300">
+            <button className="xl:text-xl w-full py-3 rounded-full underline bg-indigo-400 text-white hover:bg-zinc-800 ease-in-out duration-300">
               Get Started
             </button>
           </div>
         </div>
-        <div className="flex flex-col gap-4 bg-indigo-400 w-1/3 px-6 py-8 rounded-2xl shadow-xl">
+        <div className="flex flex-col gap-4 bg-indigo-400 xl:w-1/3 px-6 py-8 rounded-2xl shadow-xl">
           {[
             "Everything in the Starter Plan",
             "Priority customer support",
@@ -84,12 +86,12 @@ export default function Subscription() {
             </p>
           </div>
           <div>
-            <button className="text-xl w-full py-3 rounded-full underline hover:bg-rose-300 hover:text-black text-white bg-zinc-800 ease-in-out duration-300">
+            <button className="xl:text-xl w-full py-3 rounded-full underline hover:bg-rose-300 hover:text-black text-white bg-zinc-800 ease-in-out duration-300">
               Get Started
             </button>
           </div>
         </div>
-        <div className="flex flex-col gap-4 bg-indigo-100 w-1/3 px-6 py-8 rounded-2xl shadow-xl">
+        <div className="flex flex-col gap-4 bg-indigo-100 xl:w-1/3 px-6 py-8 rounded-2xl shadow-xl">
           {[
             "Access to basic courses in math, reading, and science",
             "Interactive lessons with fun visuals and quizzes",
@@ -118,7 +120,7 @@ export default function Subscription() {
             </p>
           </div>
           <div>
-            <button className="text-xl w-full py-3 rounded-full underline bg-indigo-400 text-white hover:bg-zinc-800 ease-in-out duration-300">
+            <button className="xl:text-xl w-full py-3 rounded-full underline bg-indigo-400 text-white hover:bg-zinc-800 ease-in-out duration-300">
               Get Started
             </button>
           </div>
