@@ -56,15 +56,15 @@ export default function Overview() {
     },
   ];
   return (
-    <div className="font-poppins p-20">
-      <div className="flex flex-col gap-4">
-        <h1 className="text-xl font-semibold text-indigo-500">
+    <div className="font-poppins xl:p-20 py-10 px-5 lg:px-10 lg:py-20">
+      <div className="flex flex-col lg:gap-4 gap-2">
+        <h1 className="lg:text-xl font-semibold text-indigo-500">
           COURSES OVERVIEW
         </h1>
 
-        <h1 className="text-5xl">Unlock New Skills</h1>
+        <h1 className="lg:text-5xl text-2xl">Unlock New Skills</h1>
 
-        <div className="flex justify-between items-center w-full">
+        <div className="flex lg:flex-row flex-col lg:gap-0 gap-3 justify-between items-start lg:items-center w-full">
           <p>
             Personalized learning journeys crafted to match every child’s unique
             <br />
@@ -75,7 +75,7 @@ export default function Overview() {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-3 pt-10 gap-8">
+      <div className="grid lg:grid-cols-3 pt-10 xl:gap-8 gap-3">
         {courses.map((item, index) => (
           <div
             className="w-full border-[1px] border-zinc-300 rounded-2xl p-4"

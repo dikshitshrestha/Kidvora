@@ -47,7 +47,7 @@ export default function Footer() {
             Welcome to Kidsover A Fun Way to Learn!
           </h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-4 xl:gap-28 lg:w-4/6">
+        <div className="grid grid-cols-2 md:grid-cols-4 place-items-center place-self-center gap-4 xl:gap-28 lg:w-4/6">
           <div className="flex flex-col xl:gap-3 gap-1">
             <h1 className="xl:text-2xl font-semibold text-white">Home</h1>
             <div className="xl:text-xl gap-1 text-sm flex flex-col xl:gap-2 text-zinc-600 ">

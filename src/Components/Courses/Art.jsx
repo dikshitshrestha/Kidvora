@@ -13,7 +13,7 @@ export default function Art() {
     stars.push(<FaStar key={index} />)
   );
   return (
-    <div className="bg-indigo-100 px-20 py-14 font-poppins">
+    <div className="bg-indigo-100 xl:px-20 lg:px-10 container mx-auto py-14 font-poppins">
       <h1 className="text-3xl font-semibold">Creative Arts & Crafts Course</h1>
       <div className="flex items-center gap-8 text-zinc-600 py-7">
         <div className="flex items-center gap-1.5">
