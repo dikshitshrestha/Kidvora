@@ -33,8 +33,8 @@ export default function Mission() {
     },
   ];
   return (
-    <div className="grid grid-cols-3 pt-20 px-20 gap-6 font-poppins">
-      <div className="p-6 rounded-2xl flex flex-col gap-4">
+    <div className="grid lg:grid-cols-3 xl:pt-20 lg:py-16 xl:px-20 px-3 lg:px-5 gap-6 font-poppins container mx-auto">
+      <div className="p-6 rounded-2xl flex flex-col lg:gap-4 gap-2">
         <h1 className="text-[17px] font-semibold text-indigo-500">
           MISSION & VISION
         </h1>
@@ -53,7 +53,7 @@ export default function Mission() {
           onMouseEnter={() => setIsHovered(index)}
           onMouseLeave={() => setIsHovered(null)}
           key={index}
-          className={`p-6 rounded-2xl flex flex-col gap-16 shadow-md border-[1px] ${
+          className={`p-6 rounded-2xl flex flex-col lg:gap-16 gap-8 shadow-md border-[1px] ${
             isHovered === index
               ? "bg-indigo-400 text-white ease-in-out duration-500"
               : ""
@@ -63,7 +63,7 @@ export default function Mission() {
             {item.icon}
           </div>
           <div>
-            <h1 className="text-2xl py-1">{item.heading}</h1>
+            <h1 className="lg:text-2xl text-xl lg:py-1">{item.heading}</h1>
             <h1 className="mt-2">{item.paragraph}</h1>
           </div>
         </div>

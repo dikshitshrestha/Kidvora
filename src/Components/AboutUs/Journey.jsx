@@ -25,18 +25,18 @@ export default function Journey() {
     },
   ];
   return (
-    <div className="font-poppins p-20 bg-red-100">
+    <div className="font-poppins xl:p-20 lg:py-16 lg:px-6 py-8 px-2 bg-red-100 container mx-auto">
       <div className="flex flex-col gap-4 text-center">
         <h1 className="font-semibold text-indigo-500">OUR JOURNEY</h1>
-        <h1 className="text-4xl">
+        <h1 className="lg:text-4xl text-2xl">
           From Dreams to Impact, Shaping <br /> Tomorrow's Bright Minds
         </h1>
-        <p className="text-zinc-700">
+        <p className="text-zinc-700 text-sm lg:text-[17px]">
           Our journey is built on passion, innovation, and a commitment to
           making education fun.
         </p>
       </div>
-      <div className="flex pt-10 gap-8 ">
+      <div className="flex lg:flex-row flex-col pt-10 gap-8 ">
         {courses.map((item, index) => (
           <div className="w-full bg-white rounded-2xl p-4" key={index}>
             <div className="h-56 relative overflow-hidden rounded-lg">

@@ -10,7 +10,7 @@ import logo from "../src/assets/Kidvora.png";
 export default function Footer() {
   const footer = ["Homepage", "About Us", "Courses"];
   return (
-    <div className="bg-zinc-900 xl:px-20 xl:py-20 py-10 font-poppins container mx-auto">
+    <div className="bg-zinc-900 xl:px-20 xl:py-20 lg:px-5 py-10 font-poppins container mx-auto">
       <div className="bg-indigo-400 pt-10 rounded-3xl flex lg:flex-row flex-col xl:px-20 lg:px-5">
         <div className="lg:w-1/2 w-full lg:pr-20 flex flex-col justify-center xl:gap-10 gap-5">
           <div className="text-white flex flex-col xl:gap-4 gap-2 text-center lg:text-start">

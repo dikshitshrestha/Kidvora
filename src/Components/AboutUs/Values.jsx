@@ -47,10 +47,10 @@ export default function Values() {
   ];
   const [isHovered, setIsHovered] = useState(null);
   return (
-    <div className="p-20 bg-indigo-400 font-poppins">
+    <div className="xl:p-20 lg:py-16 lg:px-6 px-2 py-8 bg-indigo-400 font-poppins container mx-auto">
       <div className="text-center">
         <h1 className="font-semibold text-white">OUR VALUES</h1>
-        <h1 className="text-4xl text-white py-5">
+        <h1 className="lg:text-4xl text-2xl text-white py-5">
           Guided by Values, Empowering Young <br />
           <span className="text-red-300">Minds Every Day</span>
         </h1>
@@ -59,7 +59,7 @@ export default function Values() {
           young learners.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-6 pt-12">
+      <div className="grid lg:grid-cols-3 gap-6 pt-12">
         {mission.map((item, index) => (
           <div
             onMouseEnter={() => setIsHovered(index)}
