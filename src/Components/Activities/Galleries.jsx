@@ -7,20 +7,20 @@ import kid5 from "../../assets/Gallery5.jpg";
 
 export default function Galleries() {
   return (
-    <div className="bg-indigo-100 font-poppins p-20">
+    <div className="bg-indigo-100 font-poppins lg:p-20 py-10 px-2 container mx-auto">
       <div className="text-center">
         <h1 className="font-semibold text-indigo-500 text-[18px]">
           PHOTO GALLERY
         </h1>
-        <h1 className="text-4xl py-4">
+        <h1 className="md:text-4xl text-2xl py-4">
           Highlights of past <br /> activities
         </h1>
-        <p className="text-zinc-700">
+        <p className="text-zinc-700 lg:text-[17px] text-sm">
           Explore some of the exciting and memorable acitivities we've conducted
           in past
         </p>
       </div>
-      <div className="mt-12 grid grid-cols-3 grid-rows-2 gap-5">
+      <div className="lg:mt-12 mt-6 grid md:grid-cols-3 grid-rows-2 gap-5">
         <div className="row-span-2 overflow-hidden rounded-2xl">
           <img
             src={kid1}
