@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import logo from "../src/assets/Kidvora.png";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   const footer = ["Homepage", "About Us", "Courses"];
@@ -23,9 +24,12 @@ export default function Footer() {
           </div>
           <div className="flex justify-center lg:justify-start xl:mb-0 mb-3">
             <button className="bg-white xl:text-[18px] text-sm px-6 py-3 rounded-full text-indigo-500 hover:bg-black hover:text-white duration-300 ease-in-out">
-              <a href="/login" className="underline flex gap-1.5 items-center ">
+              <NavLink
+                to="/login"
+                className="underline flex gap-1.5 items-center "
+              >
                 Sign Up Now <MdOutlineArrowOutward />
-              </a>
+              </NavLink>
             </button>
           </div>
         </div>
@@ -47,77 +51,89 @@ export default function Footer() {
           <div className="flex flex-col xl:gap-3 gap-1">
             <h1 className="xl:text-2xl font-semibold text-white">Home</h1>
             <div className="xl:text-xl gap-1 text-sm flex flex-col xl:gap-2 text-zinc-600 ">
-              <a href="/" className="hover:text-white ease-in-out duration-300">
+              <NavLink
+                to="/"
+                className="hover:text-white ease-in-out duration-300"
+              >
                 Homepage
-              </a>
-              <a
-                href="/about"
+              </NavLink>
+              <NavLink
+                to="/about"
                 className="hover:text-white ease-in-out duration-300"
               >
                 About Us
-              </a>
-              <a
-                href="/courses"
+              </NavLink>
+              <NavLink
+                to="/courses"
                 className="hover:text-white ease-in-out duration-300"
               >
                 Courses
-              </a>
+              </NavLink>
             </div>
           </div>
 
           <div className="flex flex-col xl:gap-3 gap-1">
             <h1 className="xl:text-2xl font-semibold text-white">About Us</h1>
             <div className="xl:text-xl text-sm flex flex-col xl:gap-2 gap-1 text-zinc-600">
-              <a href="/" className="hover:text-white ease-in-out duration-300">
+              <NavLink
+                to="/"
+                className="hover:text-white ease-in-out duration-300"
+              >
                 Homepage
-              </a>
-              <a
-                href="/about"
+              </NavLink>
+              <NavLink
+                to="/about"
                 className="hover:text-white ease-in-out duration-300"
               >
                 About Us
-              </a>
+              </NavLink>
             </div>
           </div>
 
           <div className="flex flex-col xl:gap-3 gap-1">
             <h1 className="xl:text-2xl font-semibold text-white">Courses</h1>
             <div className="xl:text-xl text-sm flex flex-col xl:gap-2 gap-1 text-zinc-600">
-              <a href="/" className="hover:text-white ease-in-out duration-300">
+              <NavLink
+                to="/"
+                className="hover:text-white ease-in-out duration-300"
+              >
                 Homepage
-              </a>
-              <a
-                href="/about"
+              </NavLink>
+              <NavLink
+                to="/about"
                 className="hover:text-white ease-in-out duration-300"
               >
                 About Us
-              </a>
-              <a
-                href="/courses"
+              </NavLink>
+              <NavLink
+                to="/courses"
                 className="hover:text-white ease-in-out duration-300"
               >
                 Courses
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="flex flex-col xl:gap-3 gap-1">
             <h1 className="xl:text-2xl font-semibold text-white">Activities</h1>
             <div className="xl:text-xl text-sm flex flex-col xl:gap-2 gap-1 text-zinc-600">
-              <a href="/" className="hover:text-white ease-in-out duration-300">
+              <NavLink
+                to="/"
+                className="hover:text-white ease-in-out duration-300"
+              >
                 Homepage
-              </a>
-              <a
-                href="/about"
+              </NavLink>
+              <NavLink
+                to="/about"
                 className="hover:text-white ease-in-out duration-300"
               >
                 About Us
-              </a>
-              <a
-                href="/activities"
+              </NavLink>
+              <NavLink
+                to="/activities"
                 className="hover:text-white ease-in-out duration-300"
               >
                 Acitivites
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>
