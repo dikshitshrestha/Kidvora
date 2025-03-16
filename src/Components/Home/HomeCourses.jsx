@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { IoMdArrowForward } from "react-icons/io";
 import course1 from "../../assets/course1.jpg";
 import course2 from "../../assets/course2.jpg";
@@ -41,20 +42,20 @@ export default function HomeCourses() {
           Explore Our Popular <br /> Courses
         </h1>
 
-        <div className="flex xl:flex-row flex-col gap-4 text-justify justify-between lg:items-start xl:items-center items-center w-full">
+        <div className="flex lg:flex-col xl:flex-row flex-col gap-4 text-justify justify-between lg:items-start items-center w-full">
           <p>
             Personalized learning journeys crafted to match every child’s unique
             abilities, fostering confidence, growth, and a lifelong
           </p>
-          <a
+          <NavLink
             href="/courses"
             className="flex gap-1 items-center bg-indigo-500 py-3 px-5 text-white rounded-full hover:bg-indigo-700 ease-in-out duration-300 underline"
           >
             Explore More <IoMdArrowForward />
-          </a>
+          </NavLink>
         </div>
       </div>
-      <div className="flex lg:flex-row flex-col pt-10 gap-8">
+      <div className="flex xl:flex-row flex-col pt-10 gap-8">
         {courses.map((item, index) => (
           <div
             className="w-full border-[1px] border-zinc-300 rounded-2xl p-4"
@@ -81,12 +82,12 @@ export default function HomeCourses() {
                   <SlCalender />
                   March, 2025
                 </h1>
-                <a
-                  href="/courses"
+                <NavLink
+                  to="/courses"
                   className="font-semibold underline hover:text-black duration-300 ease-in-out xl:text-[17px] text-sm flex items-center gap-0.5"
                 >
                   <IoDocumentsSharp /> Courses
-                </a>
+                </NavLink>
               </div>
               <h1 className="text-center xl:text-2xl underline">
                 {item.heading}
@@ -96,12 +97,12 @@ export default function HomeCourses() {
               </h1>
             </div>
             <div className="flex justify-center">
-              <a
-                href={item.path}
+              <NavLink
+                to={item.path}
                 className="underline py-3 px-6 rounded-full border-[1px] text-indigo-400 hover:bg-indigo-400 hover:text-white hover:no-underline duration-300 ease-in-out"
               >
                 See Detail
-              </a>
+              </NavLink>
             </div>
           </div>
         ))}

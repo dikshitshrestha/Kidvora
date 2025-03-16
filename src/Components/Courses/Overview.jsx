@@ -8,6 +8,7 @@ import course5 from "../../assets/journey3.jpg";
 import course6 from "../../assets/interactive3.jpg";
 import { SlCalender } from "react-icons/sl";
 import { IoDocumentsSharp } from "react-icons/io5";
+import { NavLink } from "react-router-dom";
 
 export default function Overview() {
   const courses = [
@@ -112,12 +113,12 @@ export default function Overview() {
               <h1 className="text-center">{item.paragraph}</h1>
             </div>
             <div className="flex justify-center">
-              <a
-                href={item.path}
+              <NavLink
+                to={item.path}
                 className="underline py-3 px-6 rounded-full border-[1px] text-indigo-400 hover:bg-indigo-400 hover:text-white hover:no-underline duration-300 ease-in-out"
               >
                 See Detail
-              </a>
+              </NavLink>
             </div>
           </div>
         ))}

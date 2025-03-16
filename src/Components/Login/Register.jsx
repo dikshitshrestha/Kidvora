@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/google.png";
+import { NavLink } from "react-router-dom";
 
 export default function Register() {
   return (
@@ -79,12 +80,12 @@ export default function Register() {
         </form>
         <div className="py-5 text-center flex items-center justify-center gap-1.5">
           <h1 className="text-zinc-600">Already have an account?</h1>
-          <a
-            href="/login"
+          <NavLink
+            to="/login"
             className="underline text-indigo-500 hover:text-yellow-600 ease-in-out duration-300"
           >
             Login
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>
