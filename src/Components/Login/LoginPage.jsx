@@ -3,24 +3,24 @@ import logo from "../../assets/google.png";
 
 export default function LoginPage() {
   return (
-    <div className="font-poppins bg-indigo-100 p-10 flex justify-center relative">
-      <div className="bg-slate-100 w-1/2 py-6 px-10 rounded-md">
-        <div className="flex flex-col gap-5">
-          <h1 className="text-2xl font-semibold">Welcome back!</h1>
-          <p className="text-[17px] text-zinc-600">
+    <div className="font-poppins bg-indigo-100 lg:p-10 p-5 flex justify-center relative container mx-auto">
+      <div className="bg-slate-100 lg:w-1/2 lg:py-6 lg:px-10 p-5 rounded-md">
+        <div className="flex flex-col lg:gap-5 gap-2">
+          <h1 className="lg:text-2xl font-semibold">Welcome back!</h1>
+          <p className="lg:text-[17px] text-sm text-zinc-600 lg:text-start text-justify">
             Hey there! Ready to log in? Just enter your username and password
             below and you'll be back in action in no time. Let's go!
           </p>
-          <div className="px-3">
+          <div className="lg:px-3">
             <button className="bg-white w-full py-3 rounded-lg border-[1px] border-zinc-400 flex items-center gap-2 justify-center hover:border-indigo-400 ease-in-out duration-300">
               <img src={logo} alt="google" className="h-5" />
               <h1>Continue with google</h1>
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center py-6">
+        <div className="flex justify-center items-center lg:py-6 py-3">
           <div className="flex-grow border-t-[1px] border-zinc-400"></div>
-          <span className="px-3 text-xl"> or </span>
+          <span className="px-3 lg:text-xl"> or </span>
           <div className="flex-grow border-t-[1px] border-zinc-400"></div>
         </div>
         <form className="flex flex-col gap-5">

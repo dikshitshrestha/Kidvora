@@ -3,11 +3,11 @@ import logo from "../../assets/google.png";
 
 export default function Register() {
   return (
-    <div className="font-poppins bg-indigo-100 pb-10 flex justify-center relative">
-      <div className="bg-slate-100 w-1/2 py-6 px-10 rounded-md">
-        <div className="flex flex-col gap-5">
-          <h1 className="text-2xl font-semibold">Create Your Account</h1>
-          <p className="text-[17px] text-zinc-600">
+    <div className="font-poppins bg-indigo-100 pb-10 lg:px-0 px-5 flex justify-center relative container mx-auto">
+      <div className="bg-slate-100 lg:w-1/2 lg:py-6 lg:px-10 p-5 rounded-md">
+        <div className="flex flex-col lg:gap-5 gap-2">
+          <h1 className="lg:text-2xl font-semibold">Create Your Account</h1>
+          <p className="lg:text-[17px] text-sm  text-zinc-600">
             Hey there! Ready to join the party? We just need a few details from
             you to get started. Let's do this!
           </p>
@@ -18,14 +18,14 @@ export default function Register() {
             </button>
           </div>
         </div>
-        <div className="flex justify-center items-center py-6">
+        <div className="flex justify-center items-center lg:py-6 py-3">
           <div className="flex-grow border-t-[1px] border-zinc-400"></div>
           <span className="px-3 text-xl"> or </span>
           <div className="flex-grow border-t-[1px] border-zinc-400"></div>
         </div>
         <form className="flex flex-col gap-5">
-          <div className="flex gap-5">
-            <div className="flex flex-col gap-2 w-1/2">
+          <div className="flex lg:flex-row flex-col gap-5">
+            <div className="flex flex-col gap-2 lg:w-1/2">
               <label className="text-[18px]">First Name</label>
               <input
                 type="text"
@@ -33,7 +33,7 @@ export default function Register() {
                 className="h-11 w-full focus:outline-none focus:ring-indigo-400 focus:ring-[1px] focus:border-none rounded-md border-zinc-400 border-[1px] px-4"
               />
             </div>
-            <div className="flex flex-col gap-2 w-1/2">
+            <div className="flex flex-col gap-2 lg:w-1/2">
               <label className="text-[18px]">Last Name</label>
               <input
                 type="text"
