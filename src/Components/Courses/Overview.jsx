@@ -56,7 +56,7 @@ export default function Overview() {
     },
   ];
   return (
-    <div className="font-poppins xl:p-20 py-10 px-5 lg:px-10 lg:py-20">
+    <div className="font-poppins xl:p-20 py-10 px-5 lg:px-10 lg:py-20 container mx-auto">
       <div className="flex flex-col lg:gap-4 gap-2">
         <h1 className="lg:text-xl font-semibold text-indigo-500">
           COURSES OVERVIEW

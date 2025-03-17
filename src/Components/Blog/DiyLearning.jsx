@@ -26,26 +26,26 @@ export default function DiyLearning() {
     },
   ];
   return (
-    <div className="font-poppins p-20 bg-indigo-100">
+    <div className="font-poppins xl:p-20 py-10 px-5 bg-indigo-100 container mx-auto">
       <div className="flex flex-col gap-3">
         <h1 className="text-xl font-semibold text-indigo-500">DIY LEARNING</h1>
 
-        <h1 className="text-4xl">
+        <h1 className="lg:text-4xl text-2xl">
           Hands-On Projects to Inspire Creativity and <br />
           Curiosity
         </h1>
 
-        <div className="flex justify-between items-center w-full">
+        <div className="flex lg:flex-row flex-col justify-between lg:items-center items-start w-full">
           <p>
             Explore fun and educational DIY activities that encourage hands-on
             learning.
           </p>
-          <button className="flex gap-1 items-center bg-indigo-500 py-3 px-8 text-white rounded-full hover:bg-indigo-700 ease-in-out duration-300 underline">
+          <button className="flex gap-1 lg:mt-0 mt-5 items-center bg-indigo-500 py-3 px-8 text-white rounded-full hover:bg-indigo-700 ease-in-out duration-300 underline">
             Explore More <IoMdArrowForward />
           </button>
         </div>
       </div>
-      <div className="flex pt-10 gap-8">
+      <div className="flex pt-10 lg:flex-row flex-col gap-8">
         {courses.map((item, index) => (
           <div className="w-full rounded-2xl" key={index}>
             <div className="h-64 overflow-hidden rounded-lg">
